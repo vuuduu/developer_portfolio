@@ -6,11 +6,11 @@
     --normal-font: 400;
     --bold-font: 700;
     --bolder-font: 900;
-    --bg-color: #fcfcfc;
-    --primary-color: #4756df;
-    --secondary-color: #ff7235;
-    --primary-shadow: #8b8eaf;
-    --secondary-shadow: #a17a69;
+    --bg-color: #f2dbc3;
+    --primary-color: #29160c;
+    --secondary-color: #d39b6d;
+    --primary-shadow: #f0d5b8;
+    --secondary-shadow: #dc9d5b;
     --bottom-margin: 0.5rem;
     --bottom-margin-2: 1rem;
     --line-height: 1.7rem;
@@ -48,10 +48,10 @@ body {
     font-family: var(--font-family);
 }
 
-section {
-    /* max-width: 1100px;
-  margin: auto; */
-}
+/* section {
+    max-width: 1100px;
+    margin: auto;
+} */
 
 /* CSS Resets end */
 
@@ -66,7 +66,7 @@ nav {
     justify-content: space-between;
     padding: 1.5rem 3.5rem;
     background-color: var(--bg-color);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 nav h1 {
